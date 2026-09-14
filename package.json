@@ -1,0 +1,18 @@
+{
+  "name": "kaan-bilge-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/layout.test.js tests/physics.test.js"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-3": "^5.2.5",
+    "@fontsource/stix-two-text": "^5.2.5"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

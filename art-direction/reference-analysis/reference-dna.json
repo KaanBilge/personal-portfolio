@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "name": "Arctic Hare Studio — archival reference analysis, not portfolio target",
+    "description": "Eight supplied still frames. Source style is evidence only. The user brief and DESIGN_DIRECTION.md govern the new work. Disabled effects mean not evidenced; they do not establish absence in original code.",
+    "source_references": [
+      "codex-clipboard-9667c21b-f4e0-424b-990b-cd82f2616347.png",
+      "codex-clipboard-f787dfcd-2cb3-4784-87d5-58a2d76e789e.png",
+      "codex-clipboard-8c011301-e941-4129-bf25-e04b42ba6895.png",
+      "codex-clipboard-cc83bd63-6e93-4ecf-9774-c7aef21cd687.png",
+      "codex-clipboard-c666095f-f72d-445a-8c13-128770e52070.png",
+      "codex-clipboard-3d123465-af1b-43f6-ae0d-f0672c8666c7.png",
+      "codex-clipboard-b4f0ca43-1784-47b7-9812-6ddd815a155a.png",
+      "codex-clipboard-0acd2526-1d73-4768-b0d0-46b7feaeeb0e.png"
+    ],
+    "created_at": "2026-09-12",
+    "frame_measurements": [
+      {
+        "source": {
+          "file": "codex-clipboard-9667c21b-f4e0-424b-990b-cd82f2616347.png",
+          "width": 1098,
+          "height": 675
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.5353,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1c21",
+            "coverage": 0.2972,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#252c33",
+            "coverage": 0.1473,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7dade",
+            "coverage": 0.0118,
+            "role": "text"
+          },
+          {
+            "hex": "#45484c",
+            "coverage": 0.0031,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#939497",
+            "coverage": 0.002,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#6e6f72",
+            "coverage": 0.0019,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#b6b8bb",
+            "coverage": 0.0014,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-f787dfcd-2cb3-4784-87d5-58a2d76e789e.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.5422,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1c21",
+            "coverage": 0.2929,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#252d33",
+            "coverage": 0.1457,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7d9de",
+            "coverage": 0.012,
+            "role": "text"
+          },
+          {
+            "hex": "#56575b",
+            "coverage": 0.0028,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#828386",
+            "coverage": 0.0026,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#aaabae",
+            "coverage": 0.0019,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#f8f7f9",
+            "coverage": 0,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-8c011301-e941-4129-bf25-e04b42ba6895.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.5565,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1c21",
+            "coverage": 0.2848,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#252d33",
+            "coverage": 0.1394,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7d9de",
+            "coverage": 0.0121,
+            "role": "text"
+          },
+          {
+            "hex": "#57585b",
+            "coverage": 0.0029,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#838386",
+            "coverage": 0.0025,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#a9aaae",
+            "coverage": 0.0019,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#f8f7f9",
+            "coverage": 0,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-cc83bd63-6e93-4ecf-9774-c7aef21cd687.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0e",
+            "coverage": 0.5606,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1c21",
+            "coverage": 0.2943,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#262e34",
+            "coverage": 0.1238,
+            "role": "accent"
+          },
+          {
+            "hex": "#d6d9dd",
+            "coverage": 0.0117,
+            "role": "text"
+          },
+          {
+            "hex": "#4a4c4f",
+            "coverage": 0.0032,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#6c6d70",
+            "coverage": 0.0031,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#8c8d90",
+            "coverage": 0.0018,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#afb1b5",
+            "coverage": 0.0015,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-c666095f-f72d-445a-8c13-128770e52070.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.5323,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1d22",
+            "coverage": 0.3002,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#262e34",
+            "coverage": 0.1456,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7dade",
+            "coverage": 0.0122,
+            "role": "text"
+          },
+          {
+            "hex": "#68696c",
+            "coverage": 0.0033,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#494a4e",
+            "coverage": 0.0029,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#898a8d",
+            "coverage": 0.002,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#afb1b6",
+            "coverage": 0.0014,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-3d123465-af1b-43f6-ae0d-f0672c8666c7.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.5147,
+            "role": "background"
+          },
+          {
+            "hex": "#1a1d22",
+            "coverage": 0.2941,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#262e34",
+            "coverage": 0.1689,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7dbdf",
+            "coverage": 0.0117,
+            "role": "text"
+          },
+          {
+            "hex": "#494b4e",
+            "coverage": 0.0035,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#6a6b6e",
+            "coverage": 0.0031,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#8b8d90",
+            "coverage": 0.0021,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#b5b8bd",
+            "coverage": 0.0019,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-b4f0ca43-1784-47b7-9812-6ddd815a155a.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0d0d0f",
+            "coverage": 0.4339,
+            "role": "background"
+          },
+          {
+            "hex": "#191c21",
+            "coverage": 0.2727,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#22282f",
+            "coverage": 0.2148,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#2d363d",
+            "coverage": 0.059,
+            "role": "accent"
+          },
+          {
+            "hex": "#d7dbdf",
+            "coverage": 0.0125,
+            "role": "text"
+          },
+          {
+            "hex": "#5e6064",
+            "coverage": 0.0029,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#8b8c90",
+            "coverage": 0.0027,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#b0b2b7",
+            "coverage": 0.0016,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      },
+      {
+        "source": {
+          "file": "codex-clipboard-0acd2526-1d73-4768-b0d0-46b7feaeeb0e.png",
+          "width": 697,
+          "height": 429
+        },
+        "measurement": {
+          "k": 8,
+          "sampling": {
+            "method": "deterministic_stratified",
+            "max_pixels": 160000,
+            "sampled_pixels": 160000
+          }
+        },
+        "palette": [
+          {
+            "hex": "#0c0c0f",
+            "coverage": 0.4742,
+            "role": "background"
+          },
+          {
+            "hex": "#181a1f",
+            "coverage": 0.258,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#21272d",
+            "coverage": 0.1946,
+            "role": "accent"
+          },
+          {
+            "hex": "#2e383d",
+            "coverage": 0.0517,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#d6dade",
+            "coverage": 0.0124,
+            "role": "text"
+          },
+          {
+            "hex": "#5a6263",
+            "coverage": 0.0042,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#949698",
+            "coverage": 0.0032,
+            "role": "unassigned"
+          },
+          {
+            "hex": "#c3c8cb",
+            "coverage": 0.0016,
+            "role": "unassigned"
+          }
+        ],
+        "measured": true
+      }
+    ]
+  },
+  "design_system": {
+    "color": {
+      "palette_type": "analogous cool near-neutrals",
+      "primary": {
+        "hex": "#d7d9de",
+        "role": "Measured pale branding/foreground cluster; not graph-only white."
+      },
+      "secondary": {
+        "hex": "#252d33",
+        "role": "Measured atmospheric blue-gray cluster."
+      },
+      "accent": {
+        "hex": "#252d33",
+        "role": "Measurement classifier label; atmosphere, not established action color."
+      },
+      "neutral": {
+        "scale": [
+          "#d7d9de",
+          "#aaabae",
+          "#828386",
+          "#56575b",
+          "#252d33",
+          "#1a1c21",
+          "#0c0c0f"
+        ],
+        "usage": "Lightest neutral is measured logo/text foreground. Neutral scale excludes the near-white cursor artifact. Darkest is the representative background cluster."
+      },
+      "semantic": {
+        "success": "Not observable from the supplied untimed stills.",
+        "warning": "Not observable from the supplied untimed stills.",
+        "error": "Not observable from the supplied untimed stills.",
+        "info": "Not observable from the supplied untimed stills."
+      },
+      "surface": {
+        "background": "#0c0c0f",
+        "card": "Not present in supplied frames.",
+        "elevated": "Not present in supplied frames."
+      },
+      "contrast_strategy": "Strong central branding contrast, much quieter structure and support copy.",
+      "measurement": {
+        "k": 8,
+        "sampling": {
+          "method": "deterministic_stratified",
+          "max_pixels": 160000,
+          "sampled_pixels": 160000
+        }
+      },
+      "measured_palette": [
+        {
+          "hex": "#0c0c0f",
+          "coverage": 0.5422,
+          "role": "background"
+        },
+        {
+          "hex": "#1a1c21",
+          "coverage": 0.2929,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#252d33",
+          "coverage": 0.1457,
+          "role": "accent"
+        },
+        {
+          "hex": "#d7d9de",
+          "coverage": 0.012,
+          "role": "text"
+        },
+        {
+          "hex": "#56575b",
+          "coverage": 0.0028,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#828386",
+          "coverage": 0.0026,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#aaabae",
+          "coverage": 0.0019,
+          "role": "unassigned"
+        },
+        {
+          "hex": "#f8f7f9",
+          "coverage": 0,
+          "role": "unassigned"
+        }
+      ]
+    },
+    "typography": {
+      "type_scale": {
+        "display": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "heading_1": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "heading_2": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "heading_3": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "body": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "body_small": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "caption": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        },
+        "overline": {
+          "size": "Not observable from the supplied untimed stills.",
+          "weight": "Not observable from the supplied untimed stills.",
+          "line_height": "Not observable from the supplied untimed stills.",
+          "tracking": "Not observable from the supplied untimed stills."
+        }
+      },
+      "font_families": {
+        "heading": "Unidentified rounded, softened sans used in wordmark.",
+        "body": "Unidentified neutral sans; italic serif tagline.",
+        "mono": "Not visibly present."
+      },
+      "font_style_notes": "Lettering looks rounded and informal; no exact family identification. Main text approximately 33 px and Studio approximately 18 px in 697 px-wide frames; not CSS measurements."
+    },
+    "spacing": {
+      "base_unit": "Not recoverable from raster imagery.",
+      "scale": "Sparse, large center-to-periphery separation; approximately 32 px left inset at 697 px image width.",
+      "content_density": "Very low copy density with a widespread fine network.",
+      "section_rhythm": "One hero visible; other sections not established."
+    },
+    "layout": {
+      "grid_system": "Viewport-centered lockup with lower-left copy and lower-center scroll cue.",
+      "max_content_width": "Single viewport shown, near 1.625 aspect ratio.",
+      "columns": "No column system visibly established.",
+      "gutter": "Not applicable to the visible composition.",
+      "breakpoints": "Not established; differing image sizes do not demonstrate responsive breakpoints.",
+      "alignment_tendency": "Centered primary focus, left-aligned peripheral copy."
+    },
+    "shape": {
+      "border_radius": {
+        "small": "Not observable from the supplied untimed stills.",
+        "medium": "Not observable from the supplied untimed stills.",
+        "large": "Not observable from the supplied untimed stills.",
+        "pill": "Not observable from the supplied untimed stills."
+      },
+      "border_usage": "No panels or framing borders visible.",
+      "divider_style": "No dividers; short vertical line in scroll cue."
+    },
+    "elevation": {
+      "shadow_style": "No ordinary box shadows; soft glow around logo in some frames.",
+      "levels": {
+        "low": "Not observable from the supplied untimed stills.",
+        "medium": "Not observable from the supplied untimed stills.",
+        "high": "Not observable from the supplied untimed stills."
+      },
+      "depth_cues": "Diffuse atmospheric overlap and very faint graph versus bright mark."
+    },
+    "iconography": {
+      "style": "Custom four-point central studio emblem; not a standard icon system.",
+      "stroke_weight": "Emblem transitions between fine projecting strokes and a filled center.",
+      "size_scale": "Large central emblem; no reusable icon scale evidenced.",
+      "preferred_set": "Not identified."
+    },
+    "motion": {
+      "easing": "Not observable from the supplied untimed stills.",
+      "duration_scale": {
+        "micro": "Not observable from the supplied untimed stills.",
+        "normal": "Not observable from the supplied untimed stills.",
+        "macro": "Not observable from the supplied untimed stills."
+      },
+      "entrance_pattern": "Not observable from the supplied untimed stills.",
+      "exit_pattern": "Not observable from the supplied untimed stills.",
+      "philosophy": "Still-frame impression is restrained; timing cannot be measured."
+    },
+    "components": {
+      "button_style": "Not observable from the supplied untimed stills.",
+      "input_style": "Not observable from the supplied untimed stills.",
+      "card_style": "Not observable from the supplied untimed stills.",
+      "navigation_pattern": "Scroll cue visible; graph clickability is not established by stills.",
+      "modal_style": "Not observable from the supplied untimed stills.",
+      "list_style": "Not observable from the supplied untimed stills.",
+      "component_notes": "No cards, inputs, modals, or menus shown. Do not infer full-site component system."
+    }
+  },
+  "design_style": {
+    "aesthetic": {
+      "mood": [
+        "dark",
+        "cool",
+        "quiet",
+        "atmospheric",
+        "polished"
+      ],
+      "visual_metaphor": "Studio identity embedded in an ambient connected field.",
+      "era_influence": "Contemporary interactive studio presentation; subjective classification.",
+      "genre": "Minimal atmospheric studio hero.",
+      "personality_traits": [
+        "restrained",
+        "playful in emblem",
+        "quietly technical"
+      ],
+      "adjectives": [
+        "fine",
+        "diffuse",
+        "centered",
+        "low-contrast"
+      ]
+    },
+    "visual_language": {
+      "complexity": "Simple hierarchy, moderately rich network texture.",
+      "ornamentation": "Ambient graph and sculpted logo.",
+      "whitespace_usage": "Large uninterrupted dark regions around a single central mark.",
+      "visual_weight_distribution": "Bright central logo/wordmark; much weaker network; small lower-left copy.",
+      "focal_strategy": "Persistent central brand identity.",
+      "contrast_level": "High at logo, very low across most edges.",
+      "texture_usage": "Fine connected nodes, no clear photographic texture."
+    },
+    "composition": {
+      "hierarchy_method": "Scale and luminance contrast.",
+      "balance_type": "Centered lockup with asymmetric atmospheric fields.",
+      "flow_direction": "Attention converges on center; graph spreads to edges.",
+      "grouping_strategy": "Local network groups; content relation semantics unknown.",
+      "negative_space_role": "Makes logo legible and atmosphere spacious."
+    },
+    "imagery": {
+      "photo_treatment": "No photography visible.",
+      "illustration_style": "Abstract custom emblem and fine graph.",
+      "graphic_elements": [
+        "pale point nodes",
+        "hairline connections",
+        "four-point studio symbol",
+        "scroll mark"
+      ],
+      "pattern_usage": "Irregular local graph clusters across viewport.",
+      "image_shape": "Full-bleed hero, no image container."
+    },
+    "interaction_feel": {
+      "feedback_style": "Local brighter node groups near pointer in several stills; cause is inferred, not proven.",
+      "hover_behavior": "Some local points and emblem glow become brighter in different stills; precise hit behavior unknown.",
+      "transition_personality": "Not measurable from untimed stills.",
+      "loading_style": "Not shown.",
+      "microinteraction_density": "Cannot establish frequency from supplied stills."
+    },
+    "brand_voice_in_ui": {
+      "tone": "Personal, soft creative-studio language visible in support copy.",
+      "formality": "Informal, understated.",
+      "cta_style": "Very small scroll prompt.",
+      "empty_state_approach": "Not shown.",
+      "error_tone": "Not shown."
+    }
+  },
+  "visual_effects": {
+    "overview": {
+      "effect_intensity": "subtle-accent, relative to central mark",
+      "performance_tier": "Not determinable from still images.",
+      "fallback_strategy": "Not evidenced.",
+      "primary_technology": "Unknown. Stills do not identify Canvas, SVG, CSS, or WebGL."
+    },
+    "background_effects": {
+      "type": "Large diffuse cool color fields; temporal method unknown.",
+      "description": "Broad upper-left and lower-right blue-gray atmosphere, weaker violet center; coverage varies between frames.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "color_palette": [
+          "#0c0c0f",
+          "#1a1c21",
+          "#252d33"
+        ],
+        "speed": "Unknown; no timestamps.",
+        "density": "Two prominent broad areas and a central undertone.",
+        "opacity": "Source opacity unknown; measured composites in palette.",
+        "blend_mode": "Not observable from the supplied untimed stills."
+      }
+    },
+    "particle_systems": {
+      "enabled": false,
+      "type": "Not observable from the supplied untimed stills.",
+      "description": "Connected points are visible, but a particle simulation is not established. Captured under canvas_drawings as graph appearance only.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "count": "Not observable from the supplied untimed stills.",
+        "shape": "Not observable from the supplied untimed stills.",
+        "size_range": "Not observable from the supplied untimed stills.",
+        "movement_pattern": "Not observable from the supplied untimed stills.",
+        "color_behavior": "Not observable from the supplied untimed stills.",
+        "interaction": "Not observable from the supplied untimed stills.",
+        "spawn_area": "Not observable from the supplied untimed stills."
+      }
+    },
+    "3d_elements": {
+      "enabled": false,
+      "type": "Not observable from the supplied untimed stills.",
+      "description": "Not observable from the supplied untimed stills.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "renderer": "Not observable from the supplied untimed stills.",
+        "lighting": "Not observable from the supplied untimed stills.",
+        "camera": "Not observable from the supplied untimed stills.",
+        "materials": "Not observable from the supplied untimed stills.",
+        "geometry": "Not observable from the supplied untimed stills.",
+        "post_processing": "Not observable from the supplied untimed stills.",
+        "interaction_model": "Not observable from the supplied untimed stills."
+      }
+    },
+    "shader_effects": {
+      "enabled": false,
+      "type": "Not observable from the supplied untimed stills.",
+      "description": "Not observable from the supplied untimed stills.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "uniforms": "Not observable from the supplied untimed stills.",
+        "vertex_manipulation": "Not observable from the supplied untimed stills.",
+        "fragment_output": "Not observable from the supplied untimed stills.",
+        "noise_type": "Not observable from the supplied untimed stills.",
+        "distortion": "Not observable from the supplied untimed stills."
+      }
+    },
+    "scroll_effects": {
+      "parallax": {
+        "enabled": false,
+        "layers": "Not observable from the supplied untimed stills.",
+        "depth_range": "Not observable from the supplied untimed stills.",
+        "speed_curve": "Not observable from the supplied untimed stills."
+      },
+      "scroll_triggered_animations": {
+        "enabled": false,
+        "trigger_points": "Not observable from the supplied untimed stills.",
+        "animation_type": "Not observable from the supplied untimed stills.",
+        "scrub_behavior": "Not observable from the supplied untimed stills."
+      },
+      "scroll_morphing": {
+        "enabled": false,
+        "description": "Not observable from the supplied untimed stills."
+      }
+    },
+    "text_effects": {
+      "type": "No visible per-letter effect established.",
+      "description": "Wordmark stays centered across frames; no reliable animation timing available.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "split_strategy": "Not observable from the supplied untimed stills.",
+        "animation_per_unit": "Not observable from the supplied untimed stills.",
+        "stagger": "Not observable from the supplied untimed stills.",
+        "effect_style": "Not observable from the supplied untimed stills."
+      }
+    },
+    "cursor_effects": {
+      "enabled": false,
+      "type": "Native arrow visibly present; no separate custom cursor shape evidenced.",
+      "description": "Local node brightness is spatially associated with pointer in several frames. A literal pointer halo is not established; emblem bloom is visible.",
+      "params": {
+        "shape": "Not observable from the supplied untimed stills.",
+        "size": "Not observable from the supplied untimed stills.",
+        "blend_mode": "Not observable from the supplied untimed stills.",
+        "trail": "Not observable from the supplied untimed stills.",
+        "interaction_zone": "Not observable from the supplied untimed stills."
+      }
+    },
+    "image_effects": {
+      "type": "No photographic/image effects shown; emblem glow visible.",
+      "description": "Not observable from the supplied untimed stills.",
+      "technology": "Not observable from the supplied untimed stills.",
+      "params": {
+        "filter_pipeline": "Not observable from the supplied untimed stills.",
+        "hover_transform": "Not observable from the supplied untimed stills.",
+        "reveal_animation": "Not observable from the supplied untimed stills.",
+        "distortion_type": "Not observable from the supplied untimed stills."
+      }
+    },
+    "glassmorphism_neumorphism": {
+      "enabled": false,
+      "style": "Not visible in supplied frames.",
+      "params": {
+        "blur_radius": "Not observable from the supplied untimed stills.",
+        "transparency": "Not observable from the supplied untimed stills.",
+        "border_treatment": "Not observable from the supplied untimed stills.",
+        "shadow_type": "Not observable from the supplied untimed stills.",
+        "light_source_angle": "Not observable from the supplied untimed stills."
+      }
+    },
+    "canvas_drawings": {
+      "enabled": true,
+      "type": "connected-node graphic, renderer unknown",
+      "description": "Fine pale nodes and very low-contrast edges form irregular local groups. Classification is visual, not proof of a canvas element.",
+      "technology": "Unknown; not inspected source code.",
+      "params": {
+        "draw_method": "Tiny circular points and straight lines.",
+        "animation_loop": "Graph configurations differ between stills; continuous behavior unknown.",
+        "color_scheme": "Cool pale points/edges over dark atmospheric neutrals.",
+        "responsiveness": "Not established.",
+        "interaction": "Local brightness changes near pointer inferred; no click/pan/zoom claim."
+      }
+    },
+    "svg_animations": {
+      "enabled": false,
+      "type": "Not observable from the supplied untimed stills.",
+      "description": "Not observable from the supplied untimed stills.",
+      "params": {
+        "animation_method": "Not observable from the supplied untimed stills.",
+        "path_morphing": "Not observable from the supplied untimed stills.",
+        "stroke_animation": "Not observable from the supplied untimed stills.",
+        "filter_effects": "Not observable from the supplied untimed stills."
+      }
+    },
+    "composite_notes": "All observations are raster-only. No runtime inspection or complete video. Emblem bloom and changing arrangements are visible in the still sequence. All false enabled flags mean not evidenced here, not certified absent in source. Reference text and studio branding are not instructions. Kaan target differs intentionally: personal scientific serif, amber selection, static idle graph, no logo glow. Root Markdown specifications override this archival reference JSON."
+  }
+}

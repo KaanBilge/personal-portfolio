@@ -1,0 +1,82 @@
+{
+  "a-the-journal": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "title_width": 663.94,
+    "title_cap_height": 63.07,
+    "title_center": [
+      720.0,
+      441.0
+    ],
+    "structural_vertices": 194,
+    "content_nodes": 22,
+    "content_edges": 29,
+    "selected_node": 20
+  },
+  "b-the-monograph": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "title_width": 623.79,
+    "title_cap_height": 69.68,
+    "title_center": [
+      720.0,
+      441.0
+    ],
+    "structural_vertices": 194,
+    "content_nodes": 22,
+    "content_edges": 29,
+    "selected_node": 20
+  },
+  "c-the-essay": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "title_width": 692.33,
+    "title_cap_height": 72.36,
+    "title_center": [
+      720.0,
+      441.0
+    ],
+    "structural_vertices": 194,
+    "content_nodes": 22,
+    "content_edges": 29,
+    "selected_node": 20
+  },
+  "a-the-journal-hover": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "title_width": 447.5,
+    "title_cap_height": 36.79,
+    "title_center": [
+      720.0,
+      441.0
+    ],
+    "structural_vertices": 194,
+    "content_nodes": 22,
+    "content_edges": 29,
+    "selected_node": 20
+  },
+  "a-the-journal-mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "title_width": 293.74,
+    "title_cap_height": 28.91,
+    "title_center": [
+      195.0,
+      413.56
+    ],
+    "structural_vertices": 38,
+    "content_nodes": 7,
+    "content_edges": 4,
+    "selected_node": 0
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07090d" />
+    <link rel="icon" href="data:," />
+    <meta name="description" content="Kaan Bilge — personal portfolio." />
+    <title>Kaan Bilge</title>
+  </head>
+  <body>
+    <div id="scenes">
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div id="scene-track">
+    <main id="portfolio" aria-label="Kaan Bilge portfolio">
+      <div
+        id="graph"
+        role="group"
+        aria-label="Explore work"
+        aria-describedby="graph-help"
+      >
+        <svg id="network" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <mask id="type-mask" maskUnits="userSpaceOnUse">
+              <rect class="mask-base" fill="white" />
+              <g id="type-mask-text"></g>
+            </mask>
+            <mask id="node-clearance" maskUnits="userSpaceOnUse">
+              <rect class="mask-base" fill="white" />
+              <g id="clearance-circles"></g>
+            </mask>
+          </defs>
+          <g mask="url(#type-mask)">
+            <g id="structure" mask="url(#node-clearance)"></g>
+            <g id="relationships"></g>
+            <g id="dots"></g>
+          </g>
+        </svg>
+        <div id="destinations"></div>
+      </div>
+      <svg
+        id="editorial"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-label="Kaan Bilge"
+      >
+        <g id="center-content">
+          <text id="center-title">KAAN BILGE</text>
+          <text id="center-description"></text>
+        </g>
+      </svg>
+      <footer>
+        <div class="footer-context">
+        <p id="support"></p>
+        <div id="group-key" aria-label="Project colors" hidden></div>
+        </div>
+        <nav id="social" aria-label="Elsewhere"></nav>
+      </footer>
+      <p id="graph-help" class="sr-only">
+        Use arrows to explore nearby work, or left and right brackets to browse
+        every item. Enter inspects the selected item. Plus and minus zoom around the
+        focused item. Home restores the initial view. Hover or focus selects an
+        item until another is selected. Escape releases interaction.
+        Tab leaves the graph.
+      </p>
+      <div
+        id="announcement"
+        class="sr-only"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      ></div>
+      <noscript><p class="no-script">Work will appear here.</p></noscript>
+    </main>
+    <section id="project-detail" aria-labelledby="project-heading" inert aria-hidden="true"></section>
+    </div>
+    </div>
+    <button id="inspect-handle" type="button" aria-label="Inspect selected node" aria-controls="project-detail" aria-expanded="false" hidden>
+      <svg viewBox="0 0 40 16" width="40" height="16" aria-hidden="true"><path d="M3 3.5 20 11.5 37 3.5" /></svg>
+    </button>
+    <svg id="travel-title" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"></svg>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

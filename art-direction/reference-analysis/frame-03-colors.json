@@ -1,0 +1,58 @@
+{
+  "source": {
+    "file": "codex-clipboard-8c011301-e941-4129-bf25-e04b42ba6895.png",
+    "width": 697,
+    "height": 429
+  },
+  "measurement": {
+    "k": 8,
+    "sampling": {
+      "method": "deterministic_stratified",
+      "max_pixels": 160000,
+      "sampled_pixels": 160000
+    }
+  },
+  "palette": [
+    {
+      "hex": "#0c0c0f",
+      "coverage": 0.5565,
+      "role": "background"
+    },
+    {
+      "hex": "#1a1c21",
+      "coverage": 0.2848,
+      "role": "unassigned"
+    },
+    {
+      "hex": "#252d33",
+      "coverage": 0.1394,
+      "role": "accent"
+    },
+    {
+      "hex": "#d7d9de",
+      "coverage": 0.0121,
+      "role": "text"
+    },
+    {
+      "hex": "#57585b",
+      "coverage": 0.0029,
+      "role": "unassigned"
+    },
+    {
+      "hex": "#838386",
+      "coverage": 0.0025,
+      "role": "unassigned"
+    },
+    {
+      "hex": "#a9aaae",
+      "coverage": 0.0019,
+      "role": "unassigned"
+    },
+    {
+      "hex": "#f8f7f9",
+      "coverage": 0,
+      "role": "unassigned"
+    }
+  ],
+  "measured": true
+}
