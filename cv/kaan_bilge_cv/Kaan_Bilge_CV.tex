@@ -1,0 +1,93 @@
+% Compile with pdfLaTeX, XeLaTeX or Tectonic.
+% Content is based on the two supplied CVs. See README.md for reconciliation notes.
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=1.35cm,bottom=1.35cm,left=1.55cm,right=1.55cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem,titlesec,hyperref,xcolor}
+\definecolor{ink}{HTML}{181818}
+\definecolor{secondary}{HTML}{404040}
+\hypersetup{colorlinks=true,urlcolor=ink,pdftitle={Kaan Bilge - Curriculum Vitae},pdfauthor={Kaan Bilge},pdfsubject={Education, mathematics, professional experience and software projects}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\setlist[itemize]{leftmargin=12pt,label=\textbullet,itemsep=1.5pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\fontsize{11}{13}\selectfont\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\newcommand{\entry}[3]{\textbf{#1}\hfill{\small #3}\\{\itshape #2}\par}
+\newcommand{\gap}{\vspace{4pt}}
+\newcommand{\award}[3]{\textbf{#1}, #2\hfill #3\par}
+\newcommand{\project}[3]{\textbf{#1}\enspace{\small #2}\hfill{\small\itshape #3}\par}
+\begin{document}
+\fontsize{10.5}{12.4}\selectfont
+\color{ink}
+\raggedright
+
+{\fontsize{25}{28}\selectfont\bfseries Kaan Bilge}\par
+\vspace{4pt}
+{\small Ankara, T\"urkiye\enspace\textbar\enspace
+\href{mailto:k.bilge@ug.bilkent.edu.tr}{k.bilge@ug.bilkent.edu.tr}\\[2pt]
+\href{https://github.com/KaanBilge}{github.com/KaanBilge}\enspace\textbar\enspace
+\href{https://www.linkedin.com/in/kaan-bilge}{linkedin.com/in/kaan-bilge}}\par
+
+\section{Education}
+\entry{Bilkent University}{Computer Science undergraduate}{Oct 2024 - expected 2028}
+GPA: \textbf{3.70/4.00}\enspace\textbar\enspace Full scholarship\par
+Relevant coursework: Algorithms, Data Structures, Discrete Mathematics, Calculus.
+
+\section{Selected Honours}
+\award{Gold Medal}{International Zhautykov Olympiad}{2024}
+\award{Gold Medal}{T\"UB\.{I}TAK National Mathematics Olympiad}{2024}
+\award{Top 30}{in YKS (Türkiye's university entrance examination)}{2024}
+\award{2205 Undergraduate Scholarship}{T\"UB\.{I}TAK}{2024}
+
+\section{Experience}
+\entry{HALKBANK}{AI \& Blockchain Technologies Intern}{Jun - Jul 2026}
+\begin{itemize}
+  \item Built an experimental RAG evaluation system for the bank's large document collections.
+  \item Implemented an orchestrator agent to score a separate RAG agent's performance and assess retrieval effectiveness, including embedding methods.
+\end{itemize}
+\gap
+\entry{Mercor}{Mathematics Problem Writer\enspace\textbar\enspace Part-time, remote}{2025 - 2026}
+\begin{itemize}
+  \item Authored an original mathematic dataset of 50+ problems to train LLMs in mathematical reasoning.
+\end{itemize}
+
+\section{Selected Projects}
+\project{Wizard Battle}{Unity, C\#}{Not public}
+\begin{itemize}
+  \item Developing a first-person wizard-duel game with a LAN multiplayer MVP and a local combat sandbox featuring spell cards, mana, summoned units and visual effects.
+\end{itemize}
+\gap
+\project{Progressive}{React Native, Expo, TypeScript}{In development}
+\begin{itemize}
+  \item Building a workout-tracking app with session logging, reusable routines, local data persistence and progress views for training volume and personal records.
+\end{itemize}
+\gap
+\project{\href{https://kaanbilge.itch.io/puzzleminer}{Puzzleminer}}{Unity, HTML5}{Published prototype}
+\begin{itemize}
+  \item My first ever software project, browser puzzle platformer built around placing and breaking blocks.
+\end{itemize}
+
+\section{Teaching \& Leadership}
+\entry{Mathematics Olympiad Teaching}{Tutor and competition preparation instructor}{2021 - present}
+\begin{itemize}
+  \item Tutored 20+ students individually in advanced mathematics, including algebra and number theory; taught national competition preparation at T\"UB\.{I}TAK.
+\end{itemize}
+\gap
+\entry{ABC Mathematics Contest}{Organiser, Jury Member \& Problem Writer}{2023 - 2024}
+\begin{itemize}
+  \item Authored and reviewed 40+ olympiad problems; helped organise examination centres in three cities.
+\end{itemize}
+\gap
+\textbf{Bilkent ACM Student Chapter}\hfill{\small 2026}\par
+Board Member for Academic Affairs.
+
+\section{Technical Skills}
+\textbf{Programming:} Python, C++, C, Java, C\#, TypeScript.\par
+\textbf{Libraries \& frameworks:} NumPy, pandas, React Native, Expo.\par
+\textbf{Tools:} Git, Unity; Docker (internship exposure).
+
+\end{document}

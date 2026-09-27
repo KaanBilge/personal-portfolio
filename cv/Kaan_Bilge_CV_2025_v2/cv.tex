@@ -1,0 +1,84 @@
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for CV/Resume
+%
+% This template has been downloaded and modified from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Original Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Modified (March 2019) by:
+% Jessica A. Rick <jrick@uwyo.edu>
+% http://www.jessicarick.com
+% 
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, letterpaper, draft]{academic-cv}
+
+% Configure page margins with geometry
+\geometry{left=0.75in, top=0.8in, right=0.75in, bottom=0.8in, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Kaan Bilge}{}
+\position{Undergraduate Student{\enskip\cdotp\enskip} Bachelor of Computer Science}
+\address{Bilkent University}
+
+%\mobile{+1 000-000-0000}
+\email{k.bilge@ug.bilkent.edu.tr}
+\github{https://github.com/KaanBilge}
+\linkedin{www.linkedin.com/in/kaan-bilge}
+% \gitlab{my-gitlab-id}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {September 2025}
+  {Kaan Bilge ~~~·~~~ Curriculum Vitae}
+  {\thepage}
+
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%   Comment out any sections that are not appropriate for your CV
+%-------------------------------------------------------------------------------
+\input{cv/education.tex}
+\vspace{-1.5mm}
+\input{cv/honors.tex}
+\input{cv/teaching.tex}
+\vspace{-3.5mm}
+\input{cv/mentoring.tex}
+\vspace{-1.5mm}
+\input{cv/computationalskills.tex}
+\input{cv/extracurricular.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}

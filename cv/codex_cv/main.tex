@@ -1,0 +1,75 @@
+% Compile with pdfLaTeX, XeLaTeX, or Tectonic. No custom class or external fonts required.
+% GPA, ACM title, and HALKBANK dates confirmed by Kaan on 5 September 2026.
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.45cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{xcolor,enumitem,titlesec,hyperref}
+\definecolor{accent}{HTML}{176B70}
+\definecolor{ink}{HTML}{202A32}
+\definecolor{muted}{HTML}{52616B}
+\hypersetup{colorlinks=true,urlcolor=accent,pdftitle={Kaan Bilge | CV},pdfauthor={Kaan Bilge}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}[\vspace{1pt}\color{accent}\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\newcommand{\entry}[3]{\par\addvspace{3pt}\textbf{#1}\hfill{\small\color{muted}#3}\\[-1pt]{\small #2}\par}
+\newcommand{\project}[3]{\textbf{#1}\enspace{\small\color{muted}#2}\\#3\par\vspace{2pt}}
+\begin{document}
+\raggedright
+\color{ink}
+{\fontsize{27}{30}\selectfont\bfseries Kaan Bilge}\par
+{\color{accent}Computer Science at Bilkent University\enspace|\enspace AI-assisted software development}\par
+\vspace{2pt}
+{\small\href{mailto:k.bilge@ug.bilkent.edu.tr}{k.bilge@ug.bilkent.edu.tr}\enspace\textbar\enspace
+\href{https://github.com/KaanBilge}{GitHub}\enspace\textbar\enspace
+\href{https://www.linkedin.com/in/kaan-bilge}{LinkedIn}\enspace\textbar\enspace
+\href{https://kaanbilge.itch.io/}{itch.io}}\par
+\vspace{4pt}
+Computer Science student building games and applications with AI-assisted workflows. Experience teaching 20+ mathematics students, contributing to AI model training, and developing RAG workflows during a banking technology internship.
+
+\section{Education}
+\entry{Bilkent University}{Computer Science undergraduate\enspace\textbar\enspace GPA: 3.70/4.00\enspace\textbar\enspace Full scholarship}{Oct 2024 -- present}
+
+\section{Leadership \& Teaching}
+\entry{Bilkent ACM Student Chapter}{Board Member for Academic Affairs \& Talker}{New appointment, 2026}
+Also a member of Bilkent AI Society.
+\entry{Mathematics Olympiad Teaching}{Tutor; competition preparation}{2021 -- present}
+\begin{itemize}
+\item Tutored 20+ students individually in advanced mathematics, including algebra and number theory; prepared high-school students for national competitions, including instruction at T\"UB\.{I}TAK.
+\end{itemize}
+\entry{ABC Mathematics Contest}{Organiser, jury member \& problem writer}{2023 -- 2024}
+\begin{itemize}
+\item Authored and reviewed 30+ Olympiad-level problems and helped organise examination centres across three cities in T\"urkiye.
+\end{itemize}
+
+\section{AI \& Professional Experience}
+\entry{HALKBANK}{AI \& Blockchain Technologies Intern}{15 Jun -- 10 Jul 2026}
+\begin{itemize}
+\item Built retrieval-augmented generation (RAG) workflows and stress-tested multi-agent systems.
+\item Gained practical exposure to OCR, Docker and deployment practices during the internship.
+\end{itemize}
+\entry{Mercor}{AI Training Contributor / Mathematics Problem Writer\enspace\textbar\enspace Part-time, remote}{2025 -- 2026}
+\begin{itemize}
+\item Authored 50+ original mathematics problems for AI model training and communicated with solvers throughout the problem-solving workflow.
+\end{itemize}
+
+\section{Selected Projects}
+\project{Wizard Battle}{Unity / C\#\enspace\textbar\enspace In development}{Developing a first-person wizard-duel prototype with AI-assisted workflows: a LAN multiplayer MVP and a local combat sandbox with spell cards, mana, summoned units and visual effects. itch.io release planned.}
+\project{Progressive}{React Native / Expo / TypeScript\enspace\textbar\enspace In development}{Building a gym-tracking app with workout logging, reusable routines, local data persistence and progress views for training volume and personal records.}
+\project{\href{https://kaanbilge.itch.io/puzzleminer}{Puzzleminer}}{Unity / HTML5\enspace\textbar\enspace Published prototype}{My very first browser-playable puzzle platformer game on itch.io with 10 levels built around placing and breaking blocks.}
+
+\section{Selected Honours}
+\textbf{Gold medals:} International Zhautykov Olympiad (2024); T\"UB\.{I}TAK National Mathematics Olympiad (2024).\\
+\textbf{Scholarships:} T\"UB\.{I}TAK 2205 Undergraduate Scholarship (2024); Bilkent full scholarship (2024--2028).\quad\textbf{YKS:} Top-50 placement.
+
+\section{Technical Skills}
+\textbf{Languages:} Python, C\#, C++, C, Java.\quad
+\textbf{Tools:} Claude, Codex, Git, Unity, Docker.\\
+\textbf{Applied experience:} RAG workflows, multi-agent stress testing, OCR; React Native / Expo projects.\quad
+\textbf{Libraries:} NumPy, pandas.
+\end{document}
