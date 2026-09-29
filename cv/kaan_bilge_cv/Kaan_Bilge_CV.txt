@@ -1,0 +1,43 @@
+Kaan Bilge
+Ankara, Türkiye | k.bilge@ug.bilkent.edu.tr
+github.com/KaanBilge | linkedin.com/in/kaan-bilge
+Education
+Bilkent University Oct 2024 - expected 2028
+Computer Science undergraduate
+GPA: 3.70/4.00 | Full scholarship
+Relevant coursework: Algorithms, Data Structures, Discrete Mathematics, Calculus.
+Selected Honours
+Gold Medal, International Zhautykov Olympiad (Mathematics) 2024
+Ranked 12th of 286 mathematics contestants.
+Gold Medal, TÜBİTAK National Mathematics Olympiad 2024
+Top 30, YKS (Türkiye’s university entrance examination) 2024
+2205 Undergraduate Scholarship, TÜBİTAK 2024
+Technical Skills
+Programming: Python, C++, C, Java, C#, TypeScript.
+Libraries & tools: NumPy, pandas, Git, SQLite, Next.js, Unity.
+Experience
+HALKBANK Jun - Jul 2026
+AI & Blockchain Technologies Intern
+• Built an experimental evaluation system for retrieval-augmented generation (RAG) over bank documents.
+• Implemented an orchestrator agent to score a separate RAG agent and assess retrieval and embedding
+effectiveness.
+Mercor 2025 - 2026
+Mathematics Problem Writer | Part-time, remote
+• Authored 50+ original mathematics problems for LLM training, focused on mathematical reasoning.
+Selected Projects
+Thesis - Stock Research Workspace TypeScript, Next.js, SQLite In development
+• Building a stock-research workspace combining sourced evidence with separate bull and bear analyses.
+• Implemented cash-flow and multiples-based valuation, discount-rate/growth sensitivity grids, and checks
+that sources predate the research cutoff.
+Wizard Battle Unity, C# In development
+• Developing a LAN multiplayer prototype with a local combat sandbox and card-based spell system.
+Teaching & Leadership
+Mathematics Olympiad Teaching 2021 - present
+Tutor and competition preparation instructor
+• Tutored 20+ students individually in algebra and number theory; taught national olympiad preparation at
+TÜBİTAK.
+ABC Mathematics Contest 2023 - 2024
+Organiser, Jury Member & Problem Writer
+• Authored and reviewed 40+ olympiad problems; helped organise examination centres in three cities.
+Bilkent ACM Student Chapter 2026
+Board Member for Academic Affairs.

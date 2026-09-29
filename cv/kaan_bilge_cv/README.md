@@ -1,44 +1,69 @@
 # Kaan Bilge CV
 
-One-page CV for quantitative and AI/ML internship applications. The original CVs remain unchanged.
+One-page CV tailored to quantitative trading and research internships. Older CV directories are preserved.
 
 ## Files
 
 - `Kaan_Bilge_CV.tex`: editable source; works with Tectonic, XeLaTeX or pdfLaTeX.
+- `Kaan_Bilge_CV.txt`: plain-text export of the current PDF, with typographic ligatures normalized.
 - `../../output/pdf/Kaan_Bilge_CV.pdf`: compiled application copy.
 
-Compile from the repository root with:
+The requested text file was absent on 28 September 2026. This revision used the existing LaTeX source and created the text export.
+
+Compile from the repository root:
 
 ```powershell
 New-Item -ItemType Directory -Force -Path output/pdf | Out-Null
 & ./.local/cv-tools/tectonic-0.17.0/tectonic.exe --outdir output/pdf cv/kaan_bilge_cv/Kaan_Bilge_CV.tex
 ```
 
-Tectonic 0.17.0 is stored locally in the ignored `.local/cv-tools` directory. It was downloaded from the official Tectonic release and its SHA-256 was checked against the release metadata. A standard LaTeX installation can compile this source without the portable tool.
+Tectonic 0.17.0 is stored in the ignored `.local/cv-tools` directory. The previous setup downloaded it from the official release and checked its SHA-256 against the release metadata. A standard LaTeX installation can also compile the source.
 
-## Content decisions
+## Tailoring decisions - 28 September 2026
 
-- Education and olympiad medals lead. Experience, working software, teaching and contest organisation provide evidence of applied skills.
-- Removed the generic summary and repeated references to AI-assisted development. Retained the internship's supplied role title and the actual technical work.
-- Preserved in-development and prototype status. Did not invent deployment, users, performance gains, model benchmarks or financial research experience.
-- Kept the published Puzzleminer prototype alongside two ongoing projects. Project claims come from the supplied CVs.
-- Removed high school, personal travel, general club membership, planned releases and the list of coding assistants to make room for relevant evidence.
-- An application to Claude Code Campus Ambassador is not an appointment or award, so it is not listed.
+- Lead with education and mathematics honours. Move programming and numerical libraries above experience.
+- Add the verified Zhautykov mathematics rank and field size. Do not invent denominators for the other honours.
+- Preserve HALKBANK's actual role title and experimental evaluation work; expand RAG on first use. No named metric or improvement is inferred.
+- Describe Mercor as mathematics problem authorship for LLM training, without implying ownership of model training or measured model improvement.
+- Replace Progressive and Puzzleminer with Thesis, already present in the portfolio and implemented in a neighbouring repository. Retain one concise Wizard Battle bullet for additional programming evidence.
+- Keep Thesis in development. Valuation software supports financial-analysis and engineering claims; it does not establish profitable trading or predictive accuracy.
+- Keep ACM as a role title. "Oversaw" would add unverified responsibilities, while "served" could imply that the appointment has ended.
+- Omit Docker exposure and mobile frameworks from the targeted skills list; add SQLite and Next.js, supported by Thesis. No proficiency level or SQL expertise is inferred.
+- Preserve email, GitHub and LinkedIn. No phone number appears in the source, despite the automated feedback reporting one.
 
-## Source reconciliation
+## Evidence and reconciliation
 
-These notes are editorial and do not appear on the PDF.
+These notes do not appear on the PDF.
 
-- **GPA:** Kaan confirmed 3.70/4.00 in this conversation on 27 September 2026. This supersedes the conflicting 3.81 in v2.
-- **ABC problem count:** Kaan confirmed 40+ in this conversation, superseding 30+ in codex_cv and 50+ in v2. The claim remains authored and reviewed, rather than 40+ authored alone.
-- **Expected graduation:** Kaan confirmed 2028 in this conversation; no month was supplied or inferred.
-- **HALKBANK:** dates are 15 June-10 July 2026, abbreviated to Jun-Jul. Kaan described an autonomous, experimental system for the bank's large documents: an orchestrator agent scored and judged a separate RAG agent's performance and assessed retrieval and embedding effectiveness. The bullets preserve its experimental status. No numerical result, production deployment or unmentioned framework is claimed.
-- **Mercor:** both sources support 50+ original mathematics problems. Neither source establishes benchmark improvements or model-training ownership.
-- **Skills:** TypeScript, React Native and Expo are supported by Progressive. Docker is explicitly labelled internship exposure; the generic OCR exposure is omitted. No PyTorch, TensorFlow, SQL, probability/statistics coursework or trading experience has been inferred.
-- **Links:** GitHub profile and Puzzleminer returned HTTP 200 on 27 September 2026. The Wizard Battle and Progressive repository URLs from `src/content.js` each returned HTTP 404 on unauthenticated HEAD and GET requests. They are therefore not linked in the CV. Their visibility/URLs should be addressed during the website update; no repository visibility was changed.
+- **GPA:** the previous reconciliation records Kaan's confirmation of 3.70/4.00 on 27 September 2026, superseding 3.81 in v2.
+- **ABC count:** the previous reconciliation records Kaan's confirmation of 40+, superseding 30+ in codex_cv and 50+ in v2. This means authored and reviewed, not 40+ authored alone.
+- **Graduation:** the previous reconciliation records Kaan's confirmation of expected graduation in 2028; no month was supplied.
+- **HALKBANK:** dates are 15 June-10 July 2026, abbreviated to Jun-Jul. Earlier reconciliation describes an autonomous experimental evaluator: an orchestrator scored a separate RAG agent and assessed retrieval and embedding effectiveness for bank documents. Dataset size, named metrics, production deployment and measured gains are unconfirmed.
+- **Mercor:** both older sources support 50+ original mathematics problems for AI training. The current source also describes an LLM training dataset.
+- **Zhautykov:** the [official 2024 results](https://izho.kz/contest/results-izho-2024/), checked on 28 September 2026, list Kaan Bilge under mathematics, team code `1TUR12`, with 29 points and Gold. The mathematics table contains 286 contestant rows; 11 scores exceed 29 and no other contestant has 29. Thus 12th of 286 is calculated from published scores, not copied from an explicit rank column. There are 26 mathematics gold medallists. The denominator excludes physics and computer science.
+- **Other honours:** the national olympiad year and YKS top-30 claim remain as supplied. Exact YKS category/rank and the appropriate cohort size are unconfirmed. No percentile is calculated against all YKS registrants. The national olympiad field size and gold-medal count are also unconfirmed.
+- **Thesis:** `src/content.js` identifies it as Kaan's stock-research project. Its repository at `../thesis` supplies the README, `docs/analyst.md`, `src/analyst/calculations.ts` and `src/lib/validation.ts`. These show FCFF/FCFE valuation, P/E and EV multiples, discount-rate/terminal-growth sensitivity grids, and source-date checks. Files were inspected read-only; no analysis was run or investment result inferred.
+- **Status and links:** Thesis and Wizard Battle remain in development. No unverified project URL was added. Contact links were preserved.
 
-The portfolio and deployment are the next stage; neither is changed by this CV revision.
+## Next improvements requiring real evidence
+
+1. **HALKBANK:** add the actual evaluation method, test-question/document count or volume, measures used, and a defensible comparison or finding. Negative or inconclusive results can be informative. Do not label the work Recall@k, MRR, nDCG or faithfulness evaluation unless those methods were used.
+2. **Honours:** confirm the exact YKS score category/rank and national olympiad edition. Use denominators that match the award or ranking.
+3. **Statistics:** add completed or explicitly in-progress probability/statistics coursework or research if supported; none is inferred from medals.
+4. **Research project:** future work should test a clear hypothesis with reproducible experiments. For a strategy study, document chronological held-out evaluation, baselines, sample dates, transaction costs, turnover and leakage controls. Report Sharpe, returns and drawdown only when actually measured and appropriate. This is a future suggestion, not a current CV claim.
+
+## Interpreting the automated feedback
+
+The score is an editorial heuristic, not an estimate of interview or offer probability. Counts of problems, students and cities describe scope, not measured performance improvement. Concision and evaluation detail are useful targets; a trading backtest is not universally required.
+
+Primary employer pages checked on 28 September 2026:
+
+- [Jane Street trading internship](https://www.janestreet.com/join-jane-street/internships/trading/): the curriculum assumes no prior finance, trading or markets knowledge.
+- [Jane Street quantitative researcher internship](https://www.janestreet.com/join-jane-street/position/8498547002/): projects involve data, experimental design, models and trading signals.
+- [Optiver quantitative research internship, 2027 start](https://www.optiver.com/join-us/jobs/quantitative-research-and-machine-learning/amsterdam/quantitative-research-internship-2027-start/): emphasises mathematics, probability/statistics, programming and independent research; this particular role lists 2028 graduation.
+
+Editorial assessment: the existing evidence supports a mathematics-led trading application. For research applications, probability/statistics and empirical work remain useful additions. For quant development, tailor bullets to implementation, testing and measured engineering performance once those details are available.
 
 ## Verification
 
-Compiled with Tectonic, rendered with Poppler and visually reviewed. The PDF is one A4 page, uses embedded fonts, has selectable text in the correct reading order and contains working PDF link annotations. Confirmed figures and dates were checked in the extracted text. All text lies within the page bounds.
+Compiled with Tectonic and rendered with Poppler for visual review. Verified one A4 page, selectable text in reading order, contact-link annotations and text within page bounds. The text export comes from the final PDF with Unicode ligatures normalized. No website source or deployment was changed.
